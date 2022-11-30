@@ -1,0 +1,15 @@
+whitelist /usr/bin/wine
+#x11 xephyr # todo mouse issues!111
+machine-id
+caps.drop all
+nonewprivs
+noroot
+notv
+protocol unix,inet,inet6
+#dbus-user none
+nou2f
+shell none
+disable-mnt
+private-cache
+private-dev
+private-tmp
