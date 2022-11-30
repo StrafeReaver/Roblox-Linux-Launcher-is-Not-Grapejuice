@@ -83,3 +83,11 @@ RLLNG is just a simple wrapper for the Roblox launcher, nothing quite that speci
 - Disable FFLags that have anything to do with tracking
 - Have it bother users about new wine-staging versions, and DXVK for performance improvements
 - Commit future changes to the "slave" branch because Grapejuice isn't helping minorities
+
+
+![2022-11-29_17-56](https://user-images.githubusercontent.com/58274057/204681469-0fedb2e0-c477-48ec-9465-96e0b1bf9b70.png)
+
+![2022-11-29_17-56_1](https://user-images.githubusercontent.com/58274057/204681476-67ce4052-0b46-4804-8648-21686c56be91.png)
+
+
+
