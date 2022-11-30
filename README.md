@@ -50,14 +50,9 @@ RLLNG is just a simple wrapper for the Roblox launcher, nothing quite that speci
   - Follow the instructions here pretty straightforward https://github.com/doitsujin/dxvk (Roblox prefix would be "~/.local/share/games/roblox")
 
 
-# How to build this into a binary
-
-- Run make
-
-
 # How to install
-
-  ## Editing mimeinfo.cache and installing the binary
+  - Download this repo with git, or directly from github in your browser
+  - Extract, then run 'make'
   - Go to ~/.local/share/applications
   - Place the provided "roblox-player.desktop" into that same folder
   - Open your mimeinfo.cache file and copy this into it at the very bottom
