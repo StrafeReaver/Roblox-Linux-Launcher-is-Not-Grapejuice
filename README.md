@@ -37,17 +37,17 @@ RLLNG is just a simple wrapper for the Roblox launcher, nothing quite that speci
   ## Installing Roblox inside of a new WINE prefix
   - Download https://www.roblox.com/download/client
   - Open your terminal and run 
-    > WINEPREFIX="$HOME/.local/share/games/roblox" wine $HOME/Downloads/RobloxPlayerLauncher.exe
+    > WINEPREFIX="~/.local/share/games/roblox" wine ~/Downloads/RobloxPlayerLauncher.exe
 
 
   ## Forcing and making sure Roblox uses D3D11 as its rendering engine
    - Go to 
-     > $HOME/.local/share/games/roblox/drive_c/users/$USER/AppData/Local/Roblox/Versions/version-HASHHERE
+     > ~/.local/share/games/roblox/drive_c/users/$USER/AppData/Local/Roblox/Versions/version-HASHHERE
    - Create a brand new folder named "ClientSettings"
    - Copy/Paste the provided file "ClientAppSettings.json" into that new folder
   
   ## Installing DXVK in your Roblox WINE prefix
-  - Follow the instructions here pretty straightforward https://github.com/doitsujin/dxvk (Roblox prefix would be "$HOME/.local/share/games/roblox")
+  - Follow the instructions here pretty straightforward https://github.com/doitsujin/dxvk (Roblox prefix would be "~/.local/share/games/roblox")
 
 
 # How to build this into a binary
@@ -58,11 +58,12 @@ RLLNG is just a simple wrapper for the Roblox launcher, nothing quite that speci
 # How to install
 
   ## Editing mimeinfo.cache and installing the binary
-  - Go to $HOME/.local/share/applications
+  - Go to ~/.local/share/applications
   - Place the provided "roblox-player.desktop" into that same folder
   - Open your mimeinfo.cache file and copy this into it at the very bottom
      > x-scheme-handler/roblox-player=roblox-player.desktop
-  - Place the compiled RLLNG binary into $HOME/.local/bin (Make it if you don't have it)
+  - Place the compiled RLLNG binary into ~/.local/bin (Make it if you don't have it)
+  - Create a new fodler in your .config directory named "firejail" ~/.config/firejail, and place RLLNG.local into it
 
 
 ### Play some fucking lego!!!!111
