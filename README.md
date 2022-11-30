@@ -69,7 +69,7 @@ RLLNG is just a simple wrapper for the Roblox launcher, nothing quite that speci
 ### Play some fucking lego!!!!111
 - Run your browser and click play on any game
 
-### Advantages of running your browser in Firejail before launching a game
+### Advantages of running in Firejail
 - David Ballsucki wont be able to **scan your file system**
 - Script kiddies wont be able to **pwn your system** if they ever come across a certain type of **RCE vulnerability**
 - You're **saving** the planet and it's **eco-friendly**
