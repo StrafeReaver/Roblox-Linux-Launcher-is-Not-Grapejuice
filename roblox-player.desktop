@@ -1,0 +1,5 @@
+[Desktop Entry]
+Name=Roblox Player
+Exec=sh -c "cd $HOME/.local/bin; firejail --profile=$HOME/.config/firejail/RLLNG.local ./RLLNG %u"
+Type=Application
+MimeType=x-scheme-handler/roblox-player;
