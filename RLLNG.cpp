@@ -22,8 +22,8 @@ void RobloxLauncher::Launch()
 
 const std::string RobloxLauncher::GetLauncherPath()
 {
-    for (const auto& launcherdir : std::filesystem::recursive_directory_iterator(WinePrefix + "/drive_c/users/" + std::string(getenv("USER")) + "/AppData/Local/Roblox/Versions")) // gotta us3 a little recurs10n
-        if (launcherdir.is_regular_file() ? launcherdir.path().extension() == ".exe" : std::filesystem::exists("RobloxPlayerLauncher.exe")) // lol werks on my machine tm
+    for (const auto& launcherdir : std::filesystem::recursive_directory_iterator(WinePrefix + "/drive_c/users/" + std::string(getenv("USER")) + "/AppData/Local/Roblox/Versions"))
+        if (launcherdir.is_regular_file() ? launcherdir.path().string().find("RobloxPlayerLauncher.exe") != std::string::npos : std::filesystem::exists("RobloxPlayerLauncher.exe"))
             return launcherdir.path().string();
     return {};
 }
